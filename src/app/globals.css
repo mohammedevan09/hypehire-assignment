@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: white !important;
+  font-size: 32px !important;
+}
+
+.swiper-button-prev > svg,
+.swiper-button-next > svg {
+  display: none;
+}
