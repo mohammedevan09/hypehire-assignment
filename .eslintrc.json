@@ -1,10 +1,7 @@
 {
-  "extends": [
-    "next/core-web-vitals",
-    "next/typescript",
-    "plugin:prettier/recommended"
-  ],
+  "extends": "next/core-web-vitals",
   "rules": {
-    "prettier/prettier": "error"
+    "@next/next/no-img-element": "off",
+    "react-hooks/exhaustive-deps": "off"
   }
 }

@@ -2,11 +2,8 @@
 
 import { ChevronDown } from 'lucide-react';
 import Image from 'next/image';
-import { useState } from 'react';
 
 const Header = () => {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
   return (
     <header className="py-4 lg:px-0 px-4 container mx-auto max-w-7xl">
       <div className="mx-auto flex items-center justify-between">

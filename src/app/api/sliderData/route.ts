@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { Profile, SliderData } from '@/lib/types';
+import { SliderData } from '@/lib/types';
 
 export async function GET() {
   const sliderData: SliderData[] = [
