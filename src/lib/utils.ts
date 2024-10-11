@@ -1,8 +1,6 @@
 export const data = async (endpoint: string) => {
   try {
-    const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + endpoint, {
-      cache: 'no-store',
-    });
+    const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + endpoint);
 
     if (!res.ok) {
       throw new Error('Failed to fetch data');
